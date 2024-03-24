@@ -107,7 +107,7 @@ public class StudentRankingApplication {
                 System.out.println("Invalid option. Please enter 1 or 2.");
             }
         }
-        int exitNumber =0;
+        int exitNumber;
 
             if (option == 1) {
 
