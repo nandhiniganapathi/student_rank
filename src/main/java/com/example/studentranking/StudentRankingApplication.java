@@ -20,7 +20,6 @@ public class StudentRankingApplication {
         return false;
     }
 
-
     public static void main(String[] args) {
         SpringApplication.run(StudentRankingApplication.class, args);
 
