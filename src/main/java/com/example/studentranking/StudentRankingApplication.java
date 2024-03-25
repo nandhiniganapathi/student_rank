@@ -20,29 +20,6 @@ public class StudentRankingApplication {
         return false;
     }
 
-    // Calculate rank based on marks in a specific subject
-//    public static int getSubjectRank(List<Students> students, SubjectEnum subjectEnum) {
-//        List<Students> sortedStudents = new ArrayList<>(students);
-//        Collections.sort(sortedStudents, Comparator.comparingInt((Students s) -> s.getMarksInSubjects(subjectEnum)).reversed());
-//
-//        int rank = 1;
-//        int prevMarks = Integer.MIN_VALUE;
-//        for (Students student : sortedStudents) {
-//            int marks  = student.getTotalMarks();
-//            if (student.getMarksInSubjects(subjectEnum) > 0) {
-//                return rank;
-//            }
-//
-//            if(marks == prevMarks){
-//                --rank;
-//            }
-//            if(marks != prevMarks) {
-//                rank++;
-//            }
-//            prevMarks = marks;
-//        }
-//        return 0; // Subject marks not found for any student
-//    }
 
     public static void main(String[] args) {
         SpringApplication.run(StudentRankingApplication.class, args);
